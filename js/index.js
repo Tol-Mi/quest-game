@@ -18,17 +18,20 @@ let areaBasis = [
 areaDisplay(areaBasis);
 
 function areaDisplay(areaBasis) {
-    let preparedArea = '';
+    let preparedArea = '<table>';
     for(let i = 0; i < areaBasis.length; i++) {
+        preparedArea += '<tr>';
         for(let j = 0; j < areaBasis[i].length; j++) {
             switch(areaBasis[i][j]) {
                 case 'wall':
-                    preparedArea += '<div class="wall"></div>';
+                    preparedArea += '<td class="wall"></td>';
                     break;
                 default:
-                    preparedArea += '<div class="undefined"></div>';
+                    preparedArea += '<td class="undefined"></td>';
             }
         }
+        preparedArea += '</tr>';
     }
+    preparedArea += '</table>';
     document.getElementById('dropHere').innerHTML += preparedArea;
 }
