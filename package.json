@@ -1,0 +1,25 @@
+{
+  "name": "quest-game",
+  "version": "1.0.0",
+  "description": "The quest game. That's all I know for now.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tol-Mi/quest-game.git"
+  },
+  "keywords": [
+    "quest"
+  ],
+  "author": "Mikhail Danilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tol-Mi/quest-game/issues"
+  },
+  "homepage": "https://github.com/Tol-Mi/quest-game#readme",
+  "dependencies": {
+    "sass": "^1.23.7"
+  }
+}
