@@ -1,1 +1,34 @@
-body,td{margin:0;padding:0}body::-webkit-scrollbar,td::-webkit-scrollbar{width:0px}table{border-spacing:0}#dropHere{display:flex;flex-wrap:wrap;width:100vw;heigth:100vh}.area{width:100vw}.td{width:calc(100vw/11);height:calc(100vw/11);border:1px solid black}.wall{background:gray}.floor{background:yellow}.door{background:brown}.hero{background:blue}
+body, td {
+  margin: 0;
+  padding: 0; }
+  body::-webkit-scrollbar, td::-webkit-scrollbar {
+    width: 0px; }
+
+table {
+  border-spacing: 0; }
+
+#dropHere {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  heigth: 100vh; }
+
+.area {
+  width: 100vw; }
+
+.td {
+  width: calc(100vw/11);
+  height: calc(100vw/11);
+  border: 1px solid black; }
+
+.wall {
+  background: gray; }
+
+.floor {
+  background: yellow; }
+
+.door {
+  background: brown; }
+
+.hero {
+  background: red; }
